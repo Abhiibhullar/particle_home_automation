@@ -1,0 +1,12 @@
+{
+    "name": "blynk_particle",
+    "event": "blynk_https_get",
+    "url": "https://blr1.blynk.cloud/external/api/batch/update",
+    "requestType": "GET",
+    "noDefaults": true,
+    "rejectUnauthorized": true,
+    "query": {
+        "token": "{{t}}",
+        "V0": "{{v0}}"
+    },
+}
